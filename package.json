@@ -1,0 +1,25 @@
+{
+  "name": "aws-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production": "pm2 startOrRestart ecosystem.config.cjs",
+    "deploy": "pm2 deploy production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wavescats/AWS-Deploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wavescats/AWS-Deploy/issues"
+  },
+  "homepage": "https://github.com/wavescats/AWS-Deploy#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pm2": "^5.2.2"
+  }
+}

@@ -1,0 +1,11 @@
+/uploads/*
+/build
+/node_modules
+package-lock.json
+truffle.js
+env.json
+*.bak
+data/image/
+data/metadata/
+image_generator/
+pull.sh
